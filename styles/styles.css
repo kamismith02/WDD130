@@ -24,7 +24,7 @@ h1 {
     font-family: rock_saltregular, 'Bradley Hand', cursive;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1pz solid steelblue;
@@ -33,5 +33,26 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
 }
