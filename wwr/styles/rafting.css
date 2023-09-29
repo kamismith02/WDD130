@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #9DCBBA;
+    --secondary-color: #002400;
+    --accent1-color: #19647E;
+    --accent2-color: #492C1D;
+
+    --heading-font: 'Rock Salt';
+    --paragraph-font: 'Montserrat';
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #4d4d5e;
+    --nav-hover-background-color: #e2e2e2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+a:link { 
+    text-decoration: none; 
+    color: var(--nav-link-color);
+}
+a:visited { 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: none; 
+    color: var(--nav-hover-link-color);
+}
+a:active { 
+    text-decoration: none; 
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #002400CC;
+    width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ffffff;
+    background-color: #4d4d5edd;
+    width: 45%;
+}
+
+.hero article img {
+    float: right;
+    width: 45%;
+    padding: 10px;
+}
