@@ -39,7 +39,7 @@ nav a {
 h1 {
     color: steelblue;
     font-family: rock_saltregular, 'Bradley Hand', cursive;
-    border-bottom: 3px steelblue;
+    border-bottom: 1px steelblue solid;
 }
 
 .grid {
@@ -57,12 +57,14 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
+    margin: 10px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
 p {
     padding: 0;
+    margin: 10px;
 }
 
 aside {
@@ -96,7 +98,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    padding: 2rem;
     background-color: #eee;
     color: #333;
 }
