@@ -14,20 +14,42 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 h1 {
     color: steelblue;
     font-family: rock_saltregular, 'Bradley Hand', cursive;
+    border-bottom: 3px steelblue;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -47,6 +69,8 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
