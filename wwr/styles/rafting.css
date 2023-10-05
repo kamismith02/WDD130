@@ -17,28 +17,50 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
+    text-align: center;
 }
 
 header {
     padding: 20px;
     background-color: var(--accent1-color);
     font-family: var(--paragraph-font);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+header img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	padding: 15px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: var(--nav-background-color);
+    border: .5px var(--secondary-color) solid;
 }
 
 a:link { 
-    text-decoration: none; 
     color: var(--nav-link-color);
 }
-a:visited { 
-    text-decoration: none; 
-}
+
 a:hover { 
-    text-decoration: none; 
     color: var(--nav-hover-link-color);
-}
-a:active { 
-    text-decoration: none; 
 }
 
 p {
@@ -59,7 +81,6 @@ p {
 .hero h1 {
     position: absolute;
     top: 25px;
-    text-align: center;
     color: #ffffff;
     background-color: #002400CC;
     width: 100%;
@@ -72,6 +93,7 @@ p {
     color: #ffffff;
     background-color: #4d4d5edd;
     width: 45%;
+    text-align: center;
 }
 
 .hero article img {
@@ -80,7 +102,50 @@ p {
     padding: 10px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.history img {
+    width: 100%;
+    padding: 10px;
+}
+
+.history p {
+    padding: 10px;
+    text-align: center;
+}
+
+.rapids {
+    display: flex;
+    list-style: none;
+}
+
+.rapids img {
+    width: 150px;
+}
+
+figure {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+}
+
 .sociallinks {
-    width: 30px;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.sociallinks a {
+    width: 30px;
+    padding: 2px;
 }
