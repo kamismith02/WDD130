@@ -38,12 +38,13 @@ label, input, button, select, textarea {
 label {
     text-align: center;
     color: #fff;
-    padding: 1rem;
+    margin: 6px;
 }
 
 input, select, textarea {
     padding: .5rem;
     font-size: 1rem;
+    border-radius: .3rem;
 }
 
 button {
@@ -73,17 +74,6 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 2fr;
-    margin: 7px 0;
-}
-
-textarea {
+    grid-template-rows: auto;
     margin: 10px;
-}
-
-select {
-    width: 140px;
 }
