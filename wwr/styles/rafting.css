@@ -94,6 +94,7 @@ p {
     background-color: #4d4d5edd;
     width: 45%;
     text-align: center;
+    font-size: 22px;
 }
 
 .hero article img {
@@ -148,4 +149,95 @@ footer {
 .sociallinks a {
     width: 30px;
     padding: 2px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.contact-info p {
+    text-align: center;
+}
+
+figcaption, form label {
+    font-family: var(--paragraph-font);
+}
+
+form legend {
+    font-family: var(--heading-font);
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e9e8e8;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .4rem;
+    margin: 3px;
+    border: 1.5px solid var(--accent2-color);
+    padding: 3px;
+}
+
+legend {
+    padding: .6rem;
+    color: var(--accent2-color);
+    font-size: 20px;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: .8rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: .75px solid var(--primary-color);
+    border-radius: .4rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 2fr 1fr;
+    margin: 7px 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 4fr;
+    margin: 7px 0;
+}
+
+label[for="feedback"] {
+    text-align: center;
+    margin: 5px;
+}
+
+textarea {
+    margin: 10px;
 }
