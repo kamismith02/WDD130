@@ -188,7 +188,6 @@ fieldset {
 }
 
 legend {
-    padding: .6rem;
     color: var(--accent2-color);
     font-size: 20px;
 }
@@ -220,23 +219,27 @@ button:hover {
 .form-item {
     display: grid;
     align-items: center;
+    padding-left: 10px;
+}
+
+.form-item p {
+    padding: 0;
 }
 
 .column1 {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 2fr;
     margin: 7px 0;
 }
 
 .column2 {
     grid-template-columns: 1fr 4fr;
-    margin: 7px 0;
+    margin: 3px 0;
 }
 
 label[for="feedback"] {
     text-align: center;
-    margin: 5px;
 }
 
-textarea {
+textarea, input {
     margin: 10px;
 }
