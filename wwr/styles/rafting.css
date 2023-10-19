@@ -176,6 +176,10 @@ footer {
     justify-items: center;
 }
 
+.map {
+    border: 0;
+}
+
 figcaption, form label {
     font-family: var(--paragraph-font);
 }
