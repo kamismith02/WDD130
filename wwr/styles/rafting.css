@@ -73,17 +73,17 @@ p {
     font-family: var(--paragraph-font);
 }
 
-.hero {
+.hero, .home {
     position: relative;
 }
 
-.hero img {
+.hero img, .home img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.hero h1, .home h1 {
     position: absolute;
     top: 25px;
     color: #ffffff;
@@ -91,7 +91,7 @@ p {
     width: 100%;
 }
 
-.hero article {
+.hero article, .home article {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -156,14 +156,14 @@ footer {
     padding: 2px;
 }
 
-.contact-info {
+.contact-info, .purpose-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     text-align: center;
 }
 
-.contact {
+.contact, .purpose {
     display: grid;
     justify-items: center;
 }
@@ -289,8 +289,9 @@ table {
     background-color: var(--primary-color);
 }
 
-.contact-link {
+.page-link {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
+    margin: 20px;
 }
